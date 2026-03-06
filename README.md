@@ -26,4 +26,4 @@ Jika Anda ingin mencoba web ini di komputer Anda sendiri:
 Proyek ini dibuat sebagai bagian dari eksplorasi desain web yang mengutamakan kenyamanan membaca (*readability*) dan estetika visual yang terinspirasi dari poster-poster film klasik.
 
 ---
-Dibuat dengan ❤️ oleh [Nama Kamu/Username GitHub Kamu]
+Dibuat dengan ❤️ oleh [nazwaasyaramalika/sudur_layar_cinema2]
