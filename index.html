@@ -21,6 +21,17 @@
 }
 
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+/* Kode Penjernih Gambar */
+img {
+  image-rendering: -webkit-optimize-contrast; /* Menajamkan gambar di Chrome/Safari */
+  object-fit: cover; /* Mencegah gambar terlihat gepeng */
+  font-display: swap;
+}
+
+.proj-img {
+  filter: contrast(1.05) saturate(1.1); /* Menaikkan sedikit kontras agar warna poster lebih "keluar" */
+  backface-visibility: hidden; /* Menghilangkan blur halus saat animasi zoom */
+}
 
 html { scroll-behavior: smooth; }
 
@@ -1483,7 +1494,7 @@ footer {
   <div class="portfolio-grid reveal">
     <!-- Project 1 -->
     <div class="proj" onclick="openVideo('drive','1x5VdCek3ITHY2po1hxGpDcf2w0U7Q6Zj','karya 12 tjkt B','Si Guntur')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xOoK7DvOsSA89t415je4wq9hDcqXSjTZ&sz=w800" alt="Si Guntur">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xOoK7DvOsSA89t415je4wq9hDcqXSjTZ&sz=w2000" alt="Si Guntur">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">karya 12 tjkt B</div>
@@ -1499,7 +1510,7 @@ footer {
 
     <!-- Project 2 -->
     <div class="proj" onclick="openVideo('drive','1tRojpaKe_i7thqmTP1ezIFQq8ec1EXSC','Karya 12 TP C','Titik Balik')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xAn_8V3ysBt-wwAeBC43T3VyUPhF_4nE&sz=w800" alt="Titik Balik">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xAn_8V3ysBt-wwAeBC43T3VyUPhF_4nE&sz=w2000" alt="Titik Balik">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">Karya 12 TP C</div>
@@ -1515,7 +1526,7 @@ footer {
 
     <!-- Project 3 -->
     <div class="proj" onclick="openVideo('drive','1sWKtOPDAnsEu4Kx-6KW3qG1VGK21wkPq','Karya 12 TC B','Selisih')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xV2S8BJaR0D3qb5ra32wbKMmmOWS_xqg&sz=w800" alt="Selisih">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1xV2S8BJaR0D3qb5ra32wbKMmmOWS_xqg&sz=w2000" alt="Selisih">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">Karya 12 TC B</div>
@@ -1531,7 +1542,7 @@ footer {
 
     <!-- Project 4 -->
     <div class="proj" onclick="openVideo('drive','1zXiuaRvCDL73ssTAeHL3bPqWMaEBrw_Z','Karya Anak Bangsa','Jemput Bahagia')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zSvPx_6L7cvu0eyY2RQIuOsng1rCGcNs" alt="Jemput Bahagia">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zSvPx_6L7cvu0eyY2RQIuOsng1rCGcNs&sz=w2000" alt="Jemput Bahagia">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">Karya Anak Bangsa</div>
@@ -1547,7 +1558,7 @@ footer {
 
    <!-- Project 5 -->
     <div class="proj" onclick="openVideo('drive','1zM5SCVbsgSMd0ONsabFDWyAW6HQ-RnxG','Karya Rapi Film','Dear Nathan')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zM5SCVbsgSMd0ONsabFDWyAW6HQ-RnxG" alt="Dear Nathan">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zM5SCVbsgSMd0ONsabFDWyAW6HQ-RnxG&sz=w2000" alt="Dear Nathan">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">Karya Rapi Film</div>
@@ -1563,7 +1574,7 @@ footer {
 
    <!-- Project 6 -->
     <div class="proj" onclick="openVideo('drive','1z_2FisbJffRr2lMc3wSTl3fPtwd2JiyG','Karya Anak Bangsa','FRI3ND')" style="cursor:none;">
-      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zA71fVk5IfhfIVhfilmTk_H8buedpgzb" alt="FRI3END">
+      <img class="proj-img" src="https://drive.google.com/thumbnail?id=1zA71fVk5IfhfIVhfilmTk_H8buedpgzb&sz=w2000" alt="FRI3END">
       <div class="proj-overlay">
         <div class="proj-info">
           <div class="proj-cat">Karya Anak Bangsa</div>
