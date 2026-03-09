@@ -955,12 +955,13 @@ footer {
 .modal-overlay.open { display: grid; }
 
 .login-modal {
-  background: var(--cream);
+  background: var (--cream);
   width: 90%;
   max-width: 460px;
   padding: 3.5rem;
   position: relative;
   animation: modalReveal 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
+  border-radius: 25px;
 }
 
 @keyframes modalReveal {
@@ -1104,6 +1105,7 @@ footer {
   cursor: none;
   transition: background 0.25s;
   margin-bottom: 1.5rem;
+  border-radius: 25px;
 }
 
 .btn-submit:hover { background: var(--copper); }
